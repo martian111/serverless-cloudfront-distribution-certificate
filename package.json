@@ -22,6 +22,7 @@
     "typescript": "^3.3.3"
   },
   "scripts": {
+    "prepare": "npm run build",
     "lint": "tslint --project .",
     "build": "tsc --project ."
   },
